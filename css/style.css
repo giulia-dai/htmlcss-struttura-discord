@@ -4,28 +4,43 @@
     box-sizing: border-box;
 }
 
-.header-top-container{
+header{
   background-color: lightgrey;
+
+}
+
+.header-top-container{
   min-height: 60px;
   display: flex;
-  justify-content: center;
+  margin: auto;
+  width: 1170px;
+
 }
 
 .top{
-    padding: 10px;
+    padding: 20px;
     background-color: orange;
     border: dotted 2px black;
-    width: 200px;
+    width: 20%;
     margin: 10px 0;
 }
 
 .link{
-    padding: 10px;
     background-color: orange;
     border: dotted 2px black;
-    width: 500px;
+    width: 80%;
     margin: 10px 0;
-    text-align: center;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+li{
+    margin: 20px;
 }
 
 .logo{
@@ -45,7 +60,7 @@
 
 .red-rectangles{
     background-color: red;
-    min-width: 600px;
+    width: 50%;
     min-height: 300px;
     border: 2px dotted black;
     margin: 40px 0;
@@ -92,11 +107,16 @@
     margin: 40px 0;
 }
 
+footer{
+    background-color:greenyellow;
+    width: 1170px;
+    margin: auto;
+}
+
 .footer-container{
-    background-color: greenyellow;
     max-width: 1170px;
     min-height: 300px;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: center;
 }
@@ -106,7 +126,7 @@
     border: 2px dotted black;
     max-height: 400px;
     width: 150px;
-    margin: 5px 0 15px 0;
+    margin-top: 20px;
 }
 
 .column{
@@ -114,16 +134,14 @@
     border: 2px dotted white;
     max-height: 400px;
     width: 100px;
-    margin: 5px 0 15px 0;
+    margin-top: 20px;
 }
 
 hr{
-    max-width: 1170px;
-    margin: 0 auto;
+    margin: 20px 0 ;
 }
 
 .footer-bottom-container{
-    background-color: greenyellow;
     max-width: 1170px;
     margin: 0 auto;
     padding: 20px;
